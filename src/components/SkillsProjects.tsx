@@ -91,6 +91,23 @@ export const Projects = () => {
       image: 'https://picsum.photos/seed/grader/600/400',
       link: 'https://ai-grader-glkc.onrender.com/'
     },
+    
+    {
+      title: 'Hotel Booking Platform',
+      desc: 'Comprehensive lodging booking engine with dynamic room filtering, secure reservation flow, user reservation logs, and administration panel.',
+      tech: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
+      image: 'https://picsum.photos/seed/hotelbooking/600/400',
+      link: 'https://hotel-booking-two-brown.vercel.app/'
+    },
+
+    {
+      title: 'Online Course Platform',
+      desc: 'Full-featured educational system featuring video streaming course modules, rich learner dashboard, real-time testing, and study track metrics.',
+      tech: ['React.js', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'JWT'],
+      image: 'https://picsum.photos/seed/academic/600/400',
+      link: 'https://academia-learning.onrender.com'
+    },
+
     {
       title: 'Chattrix – Chatting Website',
       desc: 'Real-time messaging platform built for seamless one-on-one and group conversations with JWT auth and encrypted storage.',
@@ -98,6 +115,7 @@ export const Projects = () => {
       image: 'https://picsum.photos/seed/chattrix/600/400',
       link: 'https://github.com/codeprakash123'
     }
+
   ];
 
   return (
