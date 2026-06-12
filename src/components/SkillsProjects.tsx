@@ -113,7 +113,7 @@ export const Projects = () => {
       desc: 'Real-time messaging platform built for seamless one-on-one and group conversations with JWT auth and encrypted storage.',
       tech: ['React.js', 'Node.js', 'Express', 'Socket.io', 'MongoDB'],
       image: 'https://picsum.photos/seed/chattrix/600/400',
-      link: 'https://github.com/codeprakash123'
+      link: 'https://whatsy-frnd.vercel.app/'
     }
 
   ];
