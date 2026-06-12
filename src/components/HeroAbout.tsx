@@ -21,8 +21,8 @@ export const Hero = () => {
         </h1>
         
         <p className="text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
-          A passionate 3rd-year Computer Science & Engineering student focused on building 
-          scalable web applications and exploring the future of technology.
+          A passionate Final year Computer Science & Engineering student focused on building 
+          scalable web applications and exploring the future of technology and AI-driven innovation.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-4">
@@ -65,7 +65,7 @@ export const Hero = () => {
 export const About = () => {
   const details = [
     { label: 'Roll No', value: '2023021243', icon: <Terminal size={18} /> },
-    { label: 'Year', value: 'Pre final Year', icon: <Cpu size={18} /> },
+    { label: 'Year', value: 'Final Year', icon: <Cpu size={18} /> },
     { label: 'Branch', value: 'Computer Science & Engineering', icon: <Code2 size={18} /> },
   ];
 
@@ -74,13 +74,21 @@ export const About = () => {
       degree: 'B.Tech in Computer Science & Engineering',
       institution: 'MMMUT, Gorakhpur',
       duration: '2023 - 2027',
-      description: 'Current CGPA: 7.8/10.0. Focusing on core CS subjects like DSA, DBMS, OS, and CN.'
+      description: 'Current CGPA: 7.92 / 10.0. Focusing on core CS subjects like DSA, DBMS, OS, and CN.'
     },
+
     {
       degree: 'Class XII (CBSE)',
       institution: 'DAV Sr. Sec. Public School, Anpara',
       duration: '2022',
       description: 'Percentage: 87.0%'
+    },
+
+    {
+      degree: 'Class X (CBSE)',
+      institution: 'DAV Sr. Sec. Public School, Anpara',
+      duration: '2020',
+      description: 'Percentage: 92.0%'
     }
   ];
 
@@ -117,8 +125,7 @@ export const About = () => {
           >
             <h2 className="text-3xl font-bold text-white mb-6">About Me</h2>
             <p className="text-slate-400 text-lg mb-8 leading-relaxed">
-              I am a dedicated Computer Science student at MMMUT, Gorakhpur, with a strong passion for 3D web development and full-stack engineering. 
-              With experience in Three.js and the MERN stack, I strive to create immersive and efficient digital experiences.
+              I am a Computer Science student at Madan Mohan Malaviya University of Technology passionate about 3D web development, full-stack engineering, and AI-driven innovation. My expertise spans Three.js, the MERN stack, and modern software development practices, enabling me to build interactive, scalable, and high-performance applications. I also possess a strong understanding of Artificial Intelligence and Machine Learning concepts, with experience in data-driven problem-solving and integrating intelligent features into applications. I am committed to continuous growth, technical excellence, and developing solutions that combine creativity, performance, and real-world impact.
             </p>
             <div className="space-y-4">
               {details.map((item, idx) => (
